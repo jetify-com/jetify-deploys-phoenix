@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/main/.schema/devbox.schema.json",
+  "packages": [
+    "elixir@latest",
+    "rebar3@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "mkdir -p .nix-hex",
+      "export MIX_HOME=$PWD/.nix-mix",
+      "export HEX_HOME=$PWD/.nix-hex",
+      "export ERL_AFLAGS='-kernel shell_history enabled'",
+      "mix local.hex --force",
+      "mix local.rebar --force"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}

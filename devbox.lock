@@ -1,0 +1,101 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "elixir@latest": {
+      "last_modified": "2024-05-22T06:18:38Z",
+      "resolved": "github:NixOS/nixpkgs/3f316d2a50699a78afe5e77ca486ad553169061e#elixir",
+      "source": "devbox-search",
+      "version": "1.16.3",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jw1pxbqg9v4948ydqj37rrwnl9nxikyi-elixir-1.16.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/jw1pxbqg9v4948ydqj37rrwnl9nxikyi-elixir-1.16.3"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wdychbp1lrh20yrcnljlh3g30sqb7s81-elixir-1.16.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/wdychbp1lrh20yrcnljlh3g30sqb7s81-elixir-1.16.3"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/yz7j0l8dx6yp0mcr51kc0wwbq3fzbbq6-elixir-1.16.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/yz7j0l8dx6yp0mcr51kc0wwbq3fzbbq6-elixir-1.16.3"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vah2w1gcg20qkrr4j3b2v4xjxnrv496s-elixir-1.16.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/vah2w1gcg20qkrr4j3b2v4xjxnrv496s-elixir-1.16.3"
+        }
+      }
+    },
+    "rebar3@latest": {
+      "last_modified": "2024-05-22T06:18:38Z",
+      "resolved": "github:NixOS/nixpkgs/3f316d2a50699a78afe5e77ca486ad553169061e#rebar3",
+      "source": "devbox-search",
+      "version": "3.23.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8mpi94kijpwyckwgs5pk9czhwk2jhqcs-rebar3-3.23.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/8mpi94kijpwyckwgs5pk9czhwk2jhqcs-rebar3-3.23.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ddl24mxlz809zhkgwc245b6j1m36s8fj-rebar3-3.23.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ddl24mxlz809zhkgwc245b6j1m36s8fj-rebar3-3.23.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/nwjvjqhrvg4ybsrkd36b5bj9zwjp69n3-rebar3-3.23.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/nwjvjqhrvg4ybsrkd36b5bj9zwjp69n3-rebar3-3.23.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xxxqas4szvfa6961i6vxpg0639xxyp5g-rebar3-3.23.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/xxxqas4szvfa6961i6vxpg0639xxyp5g-rebar3-3.23.0"
+        }
+      }
+    }
+  }
+}

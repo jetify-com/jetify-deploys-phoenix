@@ -1,0 +1,8 @@
+# Ignore .nix-hex folder
+.nix-hex/
+
+# Ignore .nix-mix folder
+.nix-mix/
+
+# Ignore .vscode folder
+.vscode/
