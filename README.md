@@ -29,5 +29,7 @@ Note that project's config/dev.exs file is configured to use the PORT environmen
 ### Scripts
 
 Install: `cd ./hello && mix deps.get`
+
 Build: `cd ./hello && mix compile`
+
 Start: `cd ./hello && mix phx.server`
